@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica de Programação JavaScript</title>
+</head>
+<body>
+    <h1>Lógica de Programação com JavaScript</h1>
+    <script>
+        // Criar uma tabuada que opere até o número 1000
+        var n = prompt('Digite um número');
+        n = parseInt(n);
+
+        var indice = 1;
+
+        while(indice <= 1000){
+            document.write( n + 'x' + indice + '=' + (n*indice) + '<br>');
+            indice = indice + 1;
+        }
+        
+        document.write('Saiu de loop');
+    </script>
+</body>
+</html>
